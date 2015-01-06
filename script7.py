@@ -9,9 +9,6 @@ a = 3
 
 if x > y:
 	print('"x" is greater than "y"\n')
-else:
-	print('"x" is less than "y"\n')
-
 
 if z < y > x:
 	print('"y" is greater than "z" and greater than "x"')
