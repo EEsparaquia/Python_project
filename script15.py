@@ -15,7 +15,7 @@ print('''
 appendMe = '\nNew bit of information'
 
 appendFile = open('exampleFile.txt', 'a')
-print('"a" is for Append')
+print('"a" is for Append ')
 appendFile.write('\n')
 appendFile.write(appendMe)
 appendFile.close()
