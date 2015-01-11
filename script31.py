@@ -9,7 +9,7 @@ import urllib.parse
 print('''              
         #####################
         #                   #
-        #  Stating Python3  #
+        #  Starting Python3 #
         #      Scripts.     #
         #  It's an exciting #
         # time to be alive  #
