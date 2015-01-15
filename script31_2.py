@@ -6,9 +6,7 @@
 # 'http://pythonprogramming.net'
 # and serch basics and filter the 
 # <p></p> tags to extract thr content
-
-
-
+import urllib.request
 import urllib.parse
 import re
 
