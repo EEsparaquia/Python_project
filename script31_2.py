@@ -22,12 +22,13 @@ print('''
 	''')
 
 url = 'http://pythonprogramming.net'
-values = {'s':'basics',
-     'submit':'search'}
+#values = {'s':'basics',
+ #    'submit':'Search'}
 
-data = urllib.parse.urlencode(values)
-data = data.encode('utf-8')
-req = urllib.request.Request(url, data)
+#data = urllib.parse.urlencode(values)
+#data = data.encode('utf-8')
+#req = urllib.request.Request(url, data)
+req = urllib.request.Request(url)
 resp = urllib.request.urlopen(req)
 respData = resp.read()
 
