@@ -31,6 +31,8 @@ y = [7,3,8,3]
 if len(x) == len(y):
 	plt.plot(x,y)
 
+	
+	
 	plt.title('Epic Chart')
 	plt.xlabel('X axis')
 	plt.ylabel('Y axis')
